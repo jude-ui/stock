@@ -109,9 +109,9 @@ main{max-width:980px;margin:0 auto;padding:30px 20px 60px}
 .box h3{display:block;font-size:22px;line-height:28px;color:#000}
 .box h3 + strong, .box h3 + p{padding-top:22px}
 .box strong{display:block;font-weight:600;padding-top:50px;font-size:20px;line-height:24px;color:#000}
-.box p{padding-top:10px;font-size:17px;line-height:28px;color:#666}
+.box p{padding-top:10px;font-size:17px;line-height:24px;color:#666}
 .box p + p{padding-top:30px}
-.box blockquote{position:relative;padding:20px 0 20px 25px;font-size:17px;line-height:28px;color:#666}
+.box blockquote{position:relative;padding:20px 0 20px 25px;font-size:17px;line-height:24px;color:#666}
 .box blockquote:before{position:absolute;top:20px;bottom:20px;left:0;border-left:4px solid #b6b6b6;content:''}
 .box figure{margin:0;padding:30px 5px 40px}
 .box figcaption{padding-top:10px;font-size:14px;line-height:20px;color:#666}
