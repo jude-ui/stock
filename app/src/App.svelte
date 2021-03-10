@@ -1,5 +1,5 @@
 <script>
-	export let name;
+	export let name, party;
 	const test = '테스트 일이삼사';
 </script>
 
@@ -8,12 +8,13 @@
 	<h2>{test}</h2>
 	<div>
 		Test Start
-		<div>{party}</div>
+		<div class="test">{ party }</div>
 	</div>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
 <style>
+	.test{font-size:16px;line-height:20px;color:red}
 	main {
 		text-align: center;
 		padding: 1em;
