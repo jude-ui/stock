@@ -6,7 +6,10 @@
 <main>
 	<h1>Hello {name}!</h1>
 	<h2>{test}</h2>
-	<div>Test Start</div>
+	<div>
+		Test Start
+		<div>{party}</div>
+	</div>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
