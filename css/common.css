@@ -113,12 +113,15 @@ main{max-width:980px;margin:0 auto;padding:30px 15px 60px}
 .box p + p{padding-top:30px}
 .box blockquote{position:relative;padding:20px 0 20px 25px;font-size:18px;line-height:1.56;color:#29292d}
 .box blockquote:before{position:absolute;top:20px;bottom:20px;left:0;border-left:4px solid #b6b6b6;content:''}
-.box figure{margin:0;padding:30px 5px 40px}
+.box figure{margin:0;padding:20px 5px 45px}
 .box figure + figure{padding-top:0}
-.box figcaption{padding-top:10px;font-size:14px;line-height:20px;color:#666}
+.box figcaption, .box .frame .caption{padding-top:10px;font-size:14px;line-height:20px;color:#666}
 .box em{font-weight:bold}
 .box img{max-width:100%}
 .box a{color:#6494e8}
+.box .frame{margin:20px auto 0;max-width:675px}
+.box .inner_frame{position:relative;padding-bottom:56.25%}
+.box .frame iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 
 .btn_top{display:flex;align-items:center;justify-content:center;width:50px;height:50px;position:fixed;bottom:calc(constant(safe-area-inset-bottom) + 20px);bottom:calc(env(safe-area-inset-bottom) + 20px);right:15px;background:rgba(255,255,255,.7);border-radius:50%;box-shadow:1px 1px 4px 2px rgba(0,0,0,.05)}
 .btn_top svg{display:block;margin-bottom:-6px;-webkit-animation:upBounce 2s infinite;-moz-animation:upBounce 2s infinite;animation:upBounce 2s infinite}
