@@ -45,7 +45,7 @@ img{vertical-align:top}
 
 /* header */
 header{position:relative;height:280px;background-color:#000}
-header:before{position:absolute;top:0;left:0;right:0;bottom:0;background:url(../images/model_s.jpg) 50% -150px no-repeat;background-attachment:fixed;opacity:0;-webkit-animation:opacityAni 5s forwards;-moz-animation:opacityAni 5s forwards;animation:opacityAni 5s forwards;content:''}
+header:before{position:fixed;top:0;left:0;right:0;bottom:0;background:url(../images/model_s.jpg) 50% -150px no-repeat;opacity:0;-webkit-animation:opacityAni 5s forwards;-moz-animation:opacityAni 5s forwards;animation:opacityAni 5s forwards;content:''}
 header:after{position:absolute;top:0;left:0;right:0;bottom:0;background-color:#000;opacity:.55;content:''}
 header h1{position:absolute;top:-60px;left:0;right:0;z-index:100;padding:0 15px;font-size:20px;line-height:60px;color:#222;background-color:#fff}
 header h1 span{display:inline-block;position:relative;opacity:0;-webkit-transform:translateX(-15px);-moz-transform:translateX(-15px);-ms-transform:translateX(-15px);transform:translateX(-15px);vertical-align:top}
@@ -94,7 +94,7 @@ header p{padding-top:10px;color:#fff}
 }
 
 /* main */
-main{max-width:980px;margin:0 auto;padding:30px 15px 60px}
+main{position:relative;z-index:20;max-width:980px;margin:0 auto;padding:30px 15px 60px;background-color:#fff}
 
 .box_index{padding:10px 0 40px;border-radius:4px}
 .box_index .list_index{flex-grow:1;flex-basis:0}
