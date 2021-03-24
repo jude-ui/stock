@@ -48,7 +48,7 @@ header{position:relative;height:280px;background-color:#000}
 header:before{position:fixed;top:0;left:0;right:0;bottom:0;background:url(../images/model_s.jpg) 50% -150px no-repeat;opacity:0;-webkit-animation:opacityAni 5s forwards;-moz-animation:opacityAni 5s forwards;animation:opacityAni 5s forwards;content:''}
 header:after{position:absolute;top:0;left:0;right:0;bottom:0;background-color:#000;opacity:.55;content:''}
 header h1{position:absolute;top:-60px;left:0;right:0;z-index:100;padding:0 15px;font-size:20px;line-height:60px;color:#222;background-color:#fff}
-header h1 span{display:inline-block;position:relative;opacity:0;-webkit-transform:translateX(-15px);-moz-transform:translateX(-15px);-ms-transform:translateX(-15px);transform:translateX(-15px);vertical-align:top}
+header h1 span{display:inline-block;position:relative;opacity:0;-webkit-transform:translateX(-15px);-moz-transform:translateX(-15px);-ms-transform:translateX(-15px);transform:translateX(-15px);will-change:transform;vertical-align:top}
 header h1 span:nth-child(1){-webkit-animation:textAni .6s forwards;-moz-animation:textAni .6s forwards;animation:textAni .6s forwards}
 header h1 span:nth-child(2){-webkit-animation:textAni .6s forwards .06s;-moz-animation:textAni .6s forwards .06s;animation:textAni .6s forwards .06s}
 header h1 span:nth-child(3){-webkit-animation:textAni .6s forwards .12s;-moz-animation:textAni .6s forwards .12s;animation:textAni .6s forwards .12s}
